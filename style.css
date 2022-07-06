@@ -64,7 +64,8 @@ body{
 #specific-amount{
     border:2px solid tomato;
     border-radius: 3px;
-    background-color: rgb(221, 179, 187);
+    background-color: rgb(247, 223, 227);
+    color: #f10c0c;
 }
 #other-amount{
     font-size: small;
@@ -119,10 +120,10 @@ margin: 5px;
     font-size :12px;
 }
 #first-plan{
-background-color: aquamarine;
+background-color:gainsboro ;
 }
 #second-plan{
-    background-color: gainsboro;
+    background-color:rgba(236, 193, 225, 0.349) ;
 }
 #third-plan{
     background-color: aliceblue;
