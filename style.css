@@ -19,6 +19,7 @@ body{
 .top-heading{
     font-size: 40px;
     font-weight: bold;
+    padding-left: 50px;
 }
  .p-description{
     font-size: small;
@@ -40,6 +41,7 @@ body{
 #heading-size{
     font-size: 35px;
     font-weight: bolder;
+    margin-right: 40px;
 }
 .donate-section p{
     padding:0px  20% 0px 25% ;
@@ -87,6 +89,9 @@ hr{
 .donate-plan{
     text-align: center;
 }
+.donate-plan h1{
+    margin-right: 100px;
+}
 .donate-plan p{
     padding:0px  20% 0px 25% ;
     font-size: small;
@@ -99,33 +104,48 @@ hr{
 .plan-container p{
     text-align: justify;
 }
-.first-plan{
+.category{
 padding: 15px 20px 15px 15px ;
-background-color: aliceblue;
 margin: 5px;
 }
-.first-plan img{
+.category img{
     width: 35px;
 }
-.first-plan h4{
+.category h4{
     font-size: 15px;
 }
-.first-plan p{
+.category p{
     font-size :12px;
 }
-
+#first-plan{
+background-color: aquamarine;
+}
+#second-plan{
+    background-color: gainsboro;
+}
+#third-plan{
+    background-color: aliceblue;
+}
+/* ---contibute-section style--- */
+.contribute-section{
+    background-color: rgba(228, 226, 223, 0.267);
+    margin-top: 5%;
+}
+.contribute-section h1{
+    text-align: center;
+    padding-top: 40px;
+}
 .how_contribute{
     display: flex;
     align-items: center;
-    justify-content: center;
     margin-left: 5%;
     width: 90%;
 }
 .contribute{
-    padding: 35px;
+    padding: 20px;
     width: 50%;
     align-items: center;
-    justify-content: center;
+    margin-bottom: 100px;
 }
 .contribute img{
     width: 100%;
@@ -133,6 +153,7 @@ margin: 5px;
 /* --update-section style-- */ 
 .update-section{
     text-align: center;
+    margin-top: 5%;
 }
 .update-section p{
     padding:0px  20% 0px 25% ;
