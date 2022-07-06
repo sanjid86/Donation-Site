@@ -102,22 +102,30 @@ hr{
 .plan-container{
     display: flex;
     margin-bottom: 50px;
+    margin-left: 80px;
+    margin-right: 80px;
 }
 .plan-container p{
     text-align: justify;
 }
 .category{
-padding: 15px 20px 15px 15px ;
-margin: 5px;
+padding-top: 40px;
+padding-left: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+height:360px ;
+width: 360px;
+margin-left: 20px;
+border-radius: 5px;
 }
 .category img{
-    width: 35px;
+    width: 60px;
 }
 .category h4{
-    font-size: 15px;
+    font-size: 30px;
 }
 .category p{
-    font-size :12px;
+    font-size :20px;
 }
 #first-plan{
 background-color:gainsboro ;
