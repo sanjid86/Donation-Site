@@ -1,0 +1,169 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* -- top-section style-- */
+.top-section{
+    background: linear-gradient(rgb(0,0,0,0.6),rgb(0,0,0,0.3)), url(images/donation0.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+.container{
+     width: 500px;
+     height: 500px;
+     text-align: center;
+     padding-left: 30%;
+     padding-top: 10%;
+}
+.top-heading{
+    font-size: 40px;
+    font-weight: bold;
+}
+ .p-description{
+    font-size: small;
+    margin-bottom: 30px;
+} 
+.btn-sector{
+    text-decoration: none;
+    color: white;
+    background-color: #FF5959;
+    padding: 10px 20px;
+    border-radius: 5px;
+} 
+
+/* -- donate-section style-- */
+.donate-section{
+    text-align: center;
+    margin-top: 80px;
+}
+#heading-size{
+    font-size: 35px;
+    font-weight: bolder;
+}
+.donate-section p{
+    padding:0px  20% 0px 25% ;
+    font-size: small;
+}
+.amount-donate{
+    display: flex;
+    margin-left: 28%;
+    margin-bottom: -10%;
+}
+.amount{
+    font-size: 20px;
+    font-weight:bold;
+    color: grey;
+    padding: 20px 20px;
+    margin: 10px 0px 10px 10px;
+    background-color: rgb(248, 246, 246);
+    box-shadow: 2px 10px 5px white;
+}
+#specific-amount{
+    border:2px solid tomato;
+    border-radius: 2px;
+}
+#other-amount{
+    font-size: small;
+    margin-bottom: 30px;
+    margin-right: 40px;
+    color: rgba(0, 0, 0, 0.616);
+}
+hr{
+    color: rgb(141, 138, 138);
+    width: 90%;
+    align-items: center;
+    margin-top: -20px; 
+    margin-bottom: 20px; 
+}
+#mid-btn{
+    margin-right: 25px;
+}
+
+/* -- donate-plan-section style-- */
+.donate-plan-container{
+    margin-top:-25% ;
+}
+.donate-plan{
+    text-align: center;
+}
+.donate-plan p{
+    padding:0px  20% 0px 25% ;
+    font-size: small;
+    margin-bottom: 30px;
+}
+.plan-container{
+    display: flex;
+    margin-bottom: 50px;
+}
+.plan-container p{
+    text-align: justify;
+}
+.first-plan{
+padding: 15px 20px 15px 15px ;
+background-color: aliceblue;
+margin: 5px;
+}
+.first-plan img{
+    width: 35px;
+}
+.first-plan h4{
+    font-size: 15px;
+}
+.first-plan p{
+    font-size :12px;
+}
+
+.how_contribute{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5%;
+    width: 90%;
+}
+.contribute{
+    padding: 35px;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.contribute img{
+    width: 100%;
+}
+/* --update-section style-- */ 
+.update-section{
+    text-align: center;
+}
+.update-section p{
+    padding:0px  20% 0px 25% ;
+    font-size: small;
+    margin-bottom: 30px;
+}
+.update-form{
+    background-color: rgba(236, 212, 187, 0.836);
+    padding: 50px 5px;
+    margin: 0px 20%;
+}
+.mail-box{
+    width: 30%;
+    height: 30px;
+    background-color: rgba(165, 168, 170, 0.979);
+    border: none;
+}
+#subscribe-btn{
+    background-color: rgba(240, 23, 70, 0.74);
+    text-decoration: none;
+    padding: 4px 10px;
+    color: white;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px 10px;
+    margin-top: 20px;
+}
+footer h3{
+    font-family:sans-serif ;
+    color: purple;
+}
