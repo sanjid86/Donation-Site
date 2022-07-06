@@ -63,7 +63,8 @@ body{
 }
 #specific-amount{
     border:2px solid tomato;
-    border-radius: 2px;
+    border-radius: 3px;
+    background-color: rgb(221, 179, 187);
 }
 #other-amount{
     font-size: small;
