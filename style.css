@@ -127,28 +127,28 @@ background-color: aquamarine;
 #third-plan{
     background-color: aliceblue;
 }
-/* ---contibute-section style--- */
-.contribute-section{
+/* ---empire-section style--- */
+.special-section{
     background-color: rgba(228, 226, 223, 0.267);
     margin-top: 5%;
 }
-.contribute-section h1{
+.special-section h1{
     text-align: center;
     padding-top: 40px;
 }
-.how_contribute{
+.benefaction{
     display: flex;
     align-items: center;
     margin-left: 5%;
     width: 90%;
 }
-.contribute{
+.empire{
     padding: 20px;
     width: 50%;
     align-items: center;
     margin-bottom: 100px;
 }
-.contribute img{
+.empire img{
     width: 100%;
 }
 /* --update-section style-- */ 
